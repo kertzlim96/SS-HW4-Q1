@@ -1,0 +1,18 @@
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  </head>
+  
+  <div class="login-page">
+    <div class="form">
+      <form action="/register" method="POST" class="login-form">
+        <p class="SUTDGroup3"> Systems Security Group 3 </br></br> Register Page</p>
+        <input type="text" name="username" placeholder="New Username"/>
+        <input type="password" name="password" placeholder="Enter Password"/>
+        <button type="submit">Create</button>
+        <p class="message">Registered? <a href="/">Login</a></p>
+      </form>
+    </div>
+  </div>
+  
